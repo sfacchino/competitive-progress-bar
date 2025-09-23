@@ -1,0 +1,15 @@
+body {
+	background: radial-gradient(#662573, #310839);
+}
+.carte {
+	color: white;
+	margin: auto;
+	width: max-content;
+	background: radial-gradient(#13124d, #532f7f);
+	text-align: center;
+	border-radius: 24px;
+}
+.top {
+	background-color: #de9f29;
+	width: max-content;
+}
