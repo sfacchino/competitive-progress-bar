@@ -1,15 +1,80 @@
 body {
+	display: flex;
+	justify-content: center;
 	background: radial-gradient(#662573, #310839);
+	margin: 22px;
+	font-family: "Poppins";
 }
-.carte {
-	color: white;
-	margin: auto;
-	width: max-content;
-	background: radial-gradient(#13124d, #532f7f);
-	text-align: center;
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 18px;
+	background: linear-gradient(#13124d, #532f7f);
+	border: 6px solid #946bbd;
 	border-radius: 24px;
+	padding-top: 48px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	color: #fff;
+	box-shadow: 10px 0px 50px 0px #662573;
 }
-.top {
+
+h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+h2 {
+	font-weight: 700;
+	font-size: 24px;
+}
+.button {
+	padding: 15px;
+	text-align: center;
 	background-color: #de9f29;
-	width: max-content;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.player {
+	display: flex;
+	flex-direction: row;
+	gap: 52px;
+}
+
+.rank {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: center;
+}
+
+.p1 {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.p21 {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.progress {
+	width: 95%;
+	padding: 7px;
+	background-color: #13124d;
+	border-radius: 9999px;
+}
+
+.progress1 {
+	display: flex;
+	justify-content: center;
+	width: 52%;
+	background-color: #ffffff;
+	border-radius: 9999px;
+	font-weight: bold;
+	color: #14134d;
 }
